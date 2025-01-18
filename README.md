@@ -67,7 +67,7 @@ By using Manifest V3, ChromeTS Launchpad ensures that extensions built with it a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ChromeTS-Launchpad.git
+   git clone https://github.com/RoshanPShetty/ChromeTS-Launchpad.git
    ```
 
 2. Navigate to the project directory:
