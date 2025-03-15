@@ -14,7 +14,7 @@ export default [
 			"@typescript-eslint/no-unused-vars": "warn",
 			"@typescript-eslint/explicit-module-boundary-types": "off",
 			eqeqeq: "error",
-			semi: ["error", "always"],
+			semi: ["error", "never"],
 			"no-console": "off",
 		},
 		ignores: ["node_modules", "dist"],

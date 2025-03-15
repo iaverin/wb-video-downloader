@@ -13,10 +13,9 @@
 	"keywords": [
 		"chrome",
 		"extension",
-		"typescript",
-		"boilerplate"
+		"typescript"
 	],
-	"author": "Your Name",
+	"author": "Ivan Averin",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/chrome": "^0.0.200",
