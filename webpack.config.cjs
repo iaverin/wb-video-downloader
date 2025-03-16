@@ -8,7 +8,6 @@ module.exports = {
 		background: "./src/background/background.ts",
 		content: "./src/content/content.ts",
 		popup: "./src/popup/popup.ts",
-		options: "./src/options/options.ts",
 		styles: "./src/styles/tailwind.css",
 	},
 	module: {
@@ -36,7 +35,6 @@ module.exports = {
 			patterns: [
 				{ from: "public", to: "." },
 				{ from: "src/popup/popup.html", to: "popup.html" },
-				{ from: "src/options/options.html", to: "options.html" },
 			],
 		}),
 		new MiniCssExtractPlugin({
