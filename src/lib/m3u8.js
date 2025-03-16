@@ -7,12 +7,11 @@ export default function M3U8() {
 
     /**
      * Adds two numbers.
-     * @param {string} m3u8 - The first number.
-     * @param {any} [options] - The first number.
-     * @returns {any} The sum of the two numbers.
+     * @param {string} m3u8
+     * @param {any} [options]
+     * @returns {any}
      */
-    this.start = function (m3u8, options) {
-
+     this.start = function (m3u8, options) {
         if (!options)
             options = {};
 

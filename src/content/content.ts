@@ -1,5 +1,5 @@
 import M3U8 from '../lib/m3u8'
- 
+
 var currentVideoPlaylistUrl = ""
 
 document.addEventListener('keypress', (event: KeyboardEvent) => {
@@ -7,7 +7,8 @@ document.addEventListener('keypress', (event: KeyboardEvent) => {
     if (!currentVideoPlaylistUrl) return
 
     const m3u8 = new M3U8()
-    const download = m3u8.start(currentVideoPlaylistUrl, {filename:""})
+    
+    const download = m3u8.start(currentVideoPlaylistUrl)
     
     download.on("progress", (progress: any) => {
         console.log(progress)
